@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<script src="script.js"></script>
+</head>
+<body>
+	<!-- The first number -->
+	<input id="num1" />
+
+	<!-- Block with buttons -->
+	<div>
+		<button onclick="definitionOperation('+')">+</button>
+		<button onclick="definitionOperation('-')">-</button>
+		<button onclick="definitionOperation('*')">x</button>
+		<button onclick="definitionOperation('/')">:</button>
+	</div>
+
+	<!-- The second number -->
+	<input id="num2" />
+	<br>
+
+	<!-- Button "Get answer" -->
+	<button onclick="func()">Посчитать</button>
+
+	<p id="result"></p>
+
+</body>
+</html>
